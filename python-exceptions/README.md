@@ -1,0 +1,1 @@
+taks about exceptions in python with holbertonschool
