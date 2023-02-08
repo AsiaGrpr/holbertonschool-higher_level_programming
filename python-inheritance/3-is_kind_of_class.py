@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-'''module to define if he object is an instance of a class or inherited class'''
+'''module to define if he object is an instance of a class or
+inherited class'''
 
 
 def is_kind_of_class(obj, a_class):
