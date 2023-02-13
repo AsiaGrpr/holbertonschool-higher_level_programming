@@ -4,6 +4,7 @@
 
 from models.base import Base
 
+
 class Rectangle(Base):
     '''class to create a rectangle with width and height attribute'''
 
