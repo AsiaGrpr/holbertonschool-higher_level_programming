@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from models.base import Base
-'''module First Rectangle'''
+'''module First Rectangle with class inherited'''
 
 
 class Rectangle(Base):
@@ -8,7 +8,8 @@ class Rectangle(Base):
 
 
     def __init__(self, width, height, x=0, y=0, id=None):
-        
+        '''init function'''
+
         self.width = width
         self.height = height
         self.x = x
