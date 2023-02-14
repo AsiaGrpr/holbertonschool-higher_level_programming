@@ -73,15 +73,14 @@ class Rectangle(Base):
         '''method that prints in stdout the Rectangle instance
         with the character #'''
 
-        string = ""
-        if self.__height == 0 or self.__width == 0:
-            print(string)
-        for i in range(self.__height):
-            for j in range(self.__width):
-                string += "#"
-            if i + 1 != self.__height:
-                string += "\n"
-        print(string)
+        for y in range(0, self.__y):
+            print("")
+        for i in range(0, self.__height):
+            for x in range(0, self.__x):
+                print(" ", end="")
+            for j in range(0, self.__width):
+                print("#", end="")
+            print("")
 
     def __str__(self):
         '''method so that it returns [Rectangle] (<id>) <x>/<y> -
