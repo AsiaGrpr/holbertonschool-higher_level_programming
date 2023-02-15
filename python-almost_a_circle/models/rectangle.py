@@ -102,6 +102,6 @@ class Rectangle(Base):
                     self.__y = args[4]
                 except IndexError:
                     pass
-            else:
-                for key, value in kwargs.items():
-                    setattr(self, key, value)
+        else:
+            for key, value in kwargs.items():
+                setattr(self, key, value)
