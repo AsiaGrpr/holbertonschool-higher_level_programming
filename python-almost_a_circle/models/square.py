@@ -40,8 +40,8 @@ class Square(Rectangle):
                 try:
                     self.id = args[0]
                     self.size = args[1]
-                    self.__x = args[2]
-                    self.__y = args[3]
+                    self.x = args[2]
+                    self.y = args[3]
                 except IndexError:
                     pass
         else:
