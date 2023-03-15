@@ -115,4 +115,4 @@ id  name
 $
 ```
 
-![types of join in SQL](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/3/bc2575fee3303b731031.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230315%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230315T131723Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=72b91c2591ac906cb035032e216915862f98fa72b6d01af4b949f4274fc5df4b "Joins in SQL")
+![types of join in SQL](https://i.stack.imgur.com/DOxik.png "Joins in SQL")
